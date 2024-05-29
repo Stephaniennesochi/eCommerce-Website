@@ -88,3 +88,37 @@ a{
     font-weight: 700;
 
 }
+.sect-two-header{
+    font-family: "Mynerve", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color:#FF0000;
+    font-size: 24px;
+    margin-left: 10%;
+}
+.two-bigger-text{
+    font-size: 56px;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+span{
+    color:green;
+}
+.align-divs{
+    display: flex;
+    gap: 10px;
+}
+.contents{
+    height: 430px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius:10px ;
+    margin-left: 30px;
+}
+.content-head{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
