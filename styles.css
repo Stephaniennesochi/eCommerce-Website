@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: #FFF9D0;
+}
+#logo{
+  width: 30px;
+  height: 30px;
+}
+.name{
+    font-size: 16px;
+    font-family: serif;
+    margin-top: 0px;
+}
+.head-element{
+    background-color:white;
+    padding: 12px;
+}
+.mynavbar{
+    display: flex;
+    gap: 70px;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: serif;
+    color: black;
+
+}
+a{
+    text-decoration: none;
+}
+.nav-btn{
+    color: white ;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color:#FF0000 ;
+    height: 40px;
+    opacity: 0.7;
+    font-size: 12px;
+}
+.sect-one{
+    background-color: #01403d;
+    margin: 0px;
+    padding: 170px;
+}
+.image-section{
+    float: right;
+}
+.sect-one-header{
+    font-family: "Mynerve", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: green;
+    font-size: 24px;
+}
+.bigger-text{
+    color: white;
+    font-size: 56px;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1;
+}
+.sub-text{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 24px;
+}
+.mini-contact{
+    height: 20px;
+    width: 20px;
+}
+.contact-btn{
+    border: 1px solid white;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 50px;
+    width: 300px;
+    background-color: #01403d;
+    color: white;
+    padding: px 18px 18px 18px;
+    margin-right: 20px;
+    font-weight: 700;
+
+}
