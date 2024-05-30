@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #FFF9D0;
+    background-color: white;
 }
 #logo{
   width: 30px;
@@ -129,7 +129,7 @@ span{
     width: 320px;
     border: 1px solid black;
     border-radius:10px ;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .content-head{
     margin-left: 10%;
@@ -165,23 +165,24 @@ span{
     height: 130px;
 }
 .webinars{
-    padding-top: 20px;
+    padding-top: 12px;
 }
 .help{
     margin-left: 25%;
 }
 .community{
     margin-left: 25%;
+    padding-top: 5px;
 }
 .big-bg{
     height: 550px;
     width: 1410px;
     border: 1px solid black;
     border-radius: 40px ;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 7%;
     background-image: url(./greenbackground.webp);
-    
+    margin-bottom: 6%;
 }
 .green-text{
     font-size: 62px;
@@ -200,4 +201,13 @@ span{
     margin-left: 28%;
     font-family: sans-serif;
     font-weight: 700;
+}
+footer{
+    background-color: black;
+    padding: 200px;
+    
+}
+.footer-content{
+    color: white;
+    font-size: 24px;
 }
