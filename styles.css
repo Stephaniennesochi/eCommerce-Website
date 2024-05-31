@@ -131,6 +131,9 @@ span{
     border-radius:10px ;
     margin-left: 40px;
 }
+.contents:hover{
+    background-color: bisque;
+}
 .content-head{
     margin-left: 10%;
     text-align: left;
@@ -148,7 +151,7 @@ span{
     width: 160px;
     padding: 4px 22px 22px 22px;
     margin-left: 10%;
-    font-weight: 500px;
+    font-weight: 500;
 }
 .mini-contacts{
     height: 20px;
@@ -190,6 +193,7 @@ span{
     text-align: center;
     font-family: sans-serif;
     font-weight: 700;
+    padding-top: 6%;
 }
 .green-button{
     background-color: lightgreen;
@@ -202,12 +206,36 @@ span{
     font-family: sans-serif;
     font-weight: 700;
 }
-footer{
+.footer-head{
     background-color: black;
     padding: 200px;
+    display: flex;
+    gap: 150px;
     
+    
+}
+footer{
+    background-color: black;
 }
 .footer-content{
     color: white;
     font-size: 24px;
+}
+.footer-image{
+    display: grid;
+    gap: 5px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.footer-subcontent{
+    color: white;
+    font-size: 24px;
+}
+.footer-coverpage{
+    height: 250px;
+    width: 350px;
+}
+.footer-ccontent{
+    font-size: 20px;
 }
