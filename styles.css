@@ -208,18 +208,19 @@ span{
 }
 .footer-head{
     background-color: black;
-    padding: 200px;
+    padding: 150px 250px 250px 250px;
     display: flex;
-    gap: 150px;
-    
+    gap: 120px;
     
 }
 footer{
     background-color: black;
+    margin-bottom: 0%;
 }
 .footer-content{
     color: white;
     font-size: 24px;
+    
 }
 .footer-image{
     display: grid;
@@ -228,14 +229,13 @@ footer{
     margin-top: 90px;
     margin-left: 50px;
 }
-.footer-subcontent{
-    color: white;
-    font-size: 24px;
-}
 .footer-coverpage{
     height: 250px;
     width: 350px;
 }
-.footer-ccontent{
-    font-size: 20px;
+.sub{
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
 }
+
